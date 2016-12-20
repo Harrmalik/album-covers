@@ -1,0 +1,17 @@
+{
+  "name": "album-covers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "lodash": "^4.17.2",
+    "morgan": "~1.7.0",
+    "request": "^2.79.0"
+  }
+}

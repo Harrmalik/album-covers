@@ -1,5 +1,5 @@
 service: album-covers
-app: support-dashboard
+app: album-covers
 org: harrmalik
 
 provider:

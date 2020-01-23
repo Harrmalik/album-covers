@@ -1,11 +1,18 @@
 service: album-covers
+app: support-dashboard
+org: harrmalik
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs12.x
+  stage: dev
   region: us-east-1
 
 functions:
   getAlbum:
     handler: handler.getAlbum
     description: Searchs spotify for the album of the given track
+    events:
+      - http:
+          path: /
+          method: get

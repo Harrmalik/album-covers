@@ -6,7 +6,7 @@
     "start": "handler.getAlbum"
   },
   "dependencies": {
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.21",
     "request": "^2.79.0"
   }
 }
